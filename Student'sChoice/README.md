@@ -15,6 +15,8 @@ Touch Controllers are fitted with a series infrared LEDs. IR cameras are used to
 Due to the prevalence of the Oculus Rift Platform and powerful Oculus OVRInput API, Touch brings meaningful interaction to a huge number of applications including NVIDIA HOLODECK, Engage Education Platform, Soundstage VR, Calcflow, and Tilt Brush.
 
 The Oculus does does have a few weaknesses. It requires three sensors for 360 degree tracking, it can only track your hands, and is still too expensive to be mainstream.
+
+Some similar devices to the Oculus Touch are the HTC VIVE Controller, PSVR Move Controller, Windows Mixed Reality Controller, and the VIVE Knuckles controller.
  
 Oculus Touch is the current standard for VR hand presence technology. The advances it has made will only continue to be built upon to further our interactions with the virtual world.
 
