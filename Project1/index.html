@@ -13,21 +13,34 @@
 
     <!-- Assets -->
     <a-assets>
+      <img id="sky" src="assets/images/skybox.jpg">
       <a-asset-item id="house" src="assets/models/house.gltf"></a-asset-item>
       <a-asset-item id="bookshelf" src="assets/models/bookshelf.gltf"></a-asset-item>
       <a-asset-item id="fridge" src="assets/models/fridge.gltf"></a-asset-item>
-
+      <a-asset-item id="kitchen_counter" src="assets/models/kitchen.gltf"></a-asset-item>
+      <a-asset-item id="stove" src="assets/models/stove.gltf"></a-asset-item>
+      <a-asset-item id="dining_table" src="assets/models/dining.gltf"></a-asset-item>
+      <a-asset-item id="sofa" src="assets/models/sofa.gltf"></a-asset-item>
+      <a-asset-item id="tv" src="assets/models/tv.gltf"></a-asset-item>
+      <a-asset-item id="rug" src="assets/models/rug.gltf"></a-asset-item>
+      <a-asset-item id="metal_shield" src="assets/models/metal_shield.gltf"></a-asset-item>
+      <a-asset-item id="knight" src="assets/models/knight.gltf"></a-asset-item>
     </a-assets>
     <!-- END Assets -->
 
     <!-- Camera -->
     <a-entity position="1.511 0.183 -3.977" rotation="0 90 0">
-      <a-camera position="0 0.882 0" rotation="-4.927437038125083 4.239887683968082 0" camera="userHeight: 0.6000000000000001"
-        look-controls="" wasd-controls=""></a-camera>
+      <a-camera position="0 0.882 0" rotation="-4.927437038125083 4.239887683968082 0" camera="userHeight: 0.6000000000000001"></a-camera>
     </a-entity>
 
     <!-- Light -->
     <a-entity light="type: ambient; color: #BBB"></a-entity>
+
+    <!-- Skybox -->
+    <a-sky src="#sky" rotation="0 -150 0"></a-sky>
+
+    <!-- House -->
+    <a-entity gltf-model="#house"></a-entity>
 
     <!-- Bookshelf -->
     <a-entity gltf-model="#bookshelf" position="-0.893 0.775 0.515" rotation="0 -162.0324644629968 0" scale="0.079 0.07 0.08"></a-entity>
@@ -35,11 +48,29 @@
     <!-- Fridge -->
     <a-entity gltf-model="#fridge" position="-0.684 0.157 -1.815" rotation="0 135.1607438713612 0" scale="1.1400000000000001 0.6 0.6"></a-entity>
 
-    <!-- House -->
-    <a-entity gltf-model="#house"></a-entity>
+    <!-- Kitchen Counter -->
+    <a-entity gltf-model="#kitchen_counter" position="2.794 0 -5.301" rotation="0 44.86259535874346 0"></a-entity>
 
-    <!-- Skybox -->
-    <a-sky src="assets/images/skybox.jpg"></a-sky>
+    <!-- Stove -->
+    <a-entity gltf-model="#stove" position="5.219 0.743 -2.289" rotation="0 -134.5304902967173 0" scale="0.03 0.025 0.03"></a-entity>
+
+    <!-- Dining Table -->
+    <a-entity gltf-model="#dining_table" position="0.639 0.552 -3.966" rotation="0 46.12310250803127 0" scale="0.02 0.02 0.019999999999999997"></a-entity>
+
+    <!-- Sofa -->
+    <a-entity gltf-model="#sofa" position="-6.707 0.189 -0.58" rotation="0 42.62805995773325 0" scale="0.028 0.02 0.02"></a-entity>
+
+    <!-- TV -->
+    <a-entity gltf-model="#tv" position="-4.019 1.036 -1.825" rotation="0 -135.96288478454437 0" scale="0.02 0.02 0.02"></a-entity>
+
+    <!-- Rug -->
+    <a-entity gltf-model="#rug" position="-6.237 0.185 1.255" rotation="0 -45.95121516949202 0" scale="0.005 0.005 0.005"></a-entity>
+
+    <!-- Shield -->
+    <a-entity gltf-model="#metal_shield" position="-8.372 1.679 2.742" rotation="0 133.44187048596874 0" scale="0.5 0.5 0.5"></a-entity>
+
+    <!-- Knight -->
+    <a-entity gltf-model="#knight" position="-3.113 0.181 -2.984" rotation="2.0626480624709633 41.36755280844544 1.9480565034447992" scale="0.05 0.05 0.05"></a-entity>
   </a-scene>
 </body>
 
