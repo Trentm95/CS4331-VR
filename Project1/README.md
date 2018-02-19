@@ -1,6 +1,11 @@
 # Project 1
 
-## Sources
+## References
+* https://aframe.io/docs/
+* https://github.com/Alex-Nguyen/CS5331001-Virtual-Reality
+* https://github.com/donmccurdy/aframe-extras
+
+## Asset Sources
 
 * [House Model](https://www.blendswap.com/blends/view/80830)
 * [Bookshelf Model](https://sketchfab.com/models/b8f46cf7daca419a87ac8d131bad056f)
@@ -13,3 +18,9 @@
 * [Rug Model](https://sketchfab.com/models/fe13eecfc9b8405dab1fe76c5dd28a4c)
 * [Shield Model](https://sketchfab.com/models/b436c3cde1d346a08926affa7a313f32)
 * [Knight Model](https://sketchfab.com/models/fdd6ff9d89bf45e8b6493d8d396bd025)
+* [Ceiling Lamp](https://sketchfab.com/models/50cef2c4bec346358b004ca213a6ba26)
+* [Speaker](https://sketchfab.com/models/0225e32494d04b50bff1f1801ecc46e5)
+* [Cutting Board](https://sketchfab.com/models/599257ecf79d4df6827f379c75bff0d9)
+* [Microwave](https://sketchfab.com/models/365dcf8d326b4f4f9a3fdea25c7e27e8)
+* [Cantina MP3](http://mattersofgrey.com/star-wars-ringtones/)
+* [Skybox](https://www.flickr.com/photos/hamburgerjung/28019644509/)
