@@ -5,7 +5,15 @@
   <meta charset="utf-8">
   <title>Project 1</title>
   <meta name="description" content="CS4331 Project 1 - Trent Myers">
+
   <script src="js/aframe.js"></script>
+  <script src="js/aframe-extras.min.js"></script>
+
+  <script>
+    function changeColor(color) {
+        document.querySelector('#light').emit(color);
+      };
+  </script>
 </head>
 
 <body>
@@ -25,22 +33,48 @@
       <a-asset-item id="rug" src="assets/models/rug.gltf"></a-asset-item>
       <a-asset-item id="metal_shield" src="assets/models/metal_shield.gltf"></a-asset-item>
       <a-asset-item id="knight" src="assets/models/knight.gltf"></a-asset-item>
+      <a-asset-item id="hanging_light" src="assets/models/hanging_light.gltf"></a-asset-item>
     </a-assets>
     <!-- END Assets -->
 
     <!-- Camera -->
-    <a-entity position="1.511 0.183 -3.977" rotation="0 90 0">
-      <a-camera position="0 0.882 0" rotation="-4.927437038125083 4.239887683968082 0" camera="userHeight: 0.6000000000000001"></a-camera>
+    <a-entity position="0.428 0.1 -6.322" rotation="0 164.15240830498087 0">
+      <a-camera universal-controls="movementSpeed: 2.0; rotationSensitivity: 0.1; movementEasing: 10; movementAcceleration: 30" position="0 0.6 0" rotation="-3.3231552117587753 30.71053781901214 0" camera="userHeight:0.6">
+        <a-entity raycaster="far: 150; objects: .intersectable" cursor="fuse: true; fuseTimeout: 700" geometry="primitive: ring; radiusOuter: 0.015;radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 -0.75"></a-entity>
+      </a-camera>
     </a-entity>
 
-    <!-- Light -->
+    <!-- Ambient Light -->
     <a-entity light="type: ambient; color: #BBB"></a-entity>
+
+    <!-- Controllable Light -->
+    <a-light id="light" type="point" color="white" intensity="0.4" position="-6.329 1.0 0.817">
+        <a-animation begin="red" attribute="color" from="black" to="red"></a-animation>
+        <a-animation begin="blue" attribute="color" from="black" to="blue"></a-animation>
+        <a-animation begin="green" attribute="color" from="black" to="green"></a-animation>
+        <a-animation begin="white" attribute="color" from="black" to="white"></a-animation>
+    </a-light>
 
     <!-- Skybox -->
     <a-sky src="#sky" rotation="0 -150 0"></a-sky>
 
     <!-- House -->
     <a-entity gltf-model="#house"></a-entity>
+
+    <!-- Red Light Switch -->
+    <a-box onclick="changeColor('red');" color="red" depth="0.1" height="0.1" width="0.1" class="intersectable" position="-2.675 1.18 0.925" rotation="0 -47.211722318779834 0"></a-box>
+
+    <!-- Blue Light Switch -->
+    <a-box onclick="changeColor('blue');" color="blue" depth="0.1" height="0.1" width="0.1" class="intersectable" position="-2.842 1.18 1.08" rotation="0 -47.211722318779834 0"></a-box>
+
+    <!-- Green Light Switch -->
+    <a-box onclick="changeColor('green');" color="green" depth="0.1" height="0.1" width="0.1" class="intersectable" position="-3.006 1.18 1.232" rotation="0 -47.212 0"></a-box>
+
+    <!-- White Light Switch -->
+    <a-box onclick="changeColor('white');" color="white" depth="0.1" height="0.1" width="0.1" class="intersectable" position="-3.161 1.18 1.375" rotation="0 -47.212 0"></a-box>
+    
+    <!-- Hanging Light -->
+    <a-entity gltf-model="#hanging_light" position="-6.329 1.609 0.817" scale="10 3 10"></a-entity>
 
     <!-- Bookshelf -->
     <a-entity gltf-model="#bookshelf" position="-0.893 0.775 0.515" rotation="0 -162.0324644629968 0" scale="0.079 0.07 0.08"></a-entity>
@@ -70,7 +104,7 @@
     <a-entity gltf-model="#metal_shield" position="-8.372 1.679 2.742" rotation="0 133.44187048596874 0" scale="0.5 0.5 0.5"></a-entity>
 
     <!-- Knight -->
-    <a-entity gltf-model="#knight" position="-3.113 0.181 -2.984" rotation="2.0626480624709633 41.36755280844544 1.9480565034447992" scale="0.05 0.05 0.05"></a-entity>
+    <a-entity gltf-model="#knight" position="-3.113 0.181 -2.984" rotation="2.0626480624709633 41.36755280844544 1.9480565034447992" scale="0.05 0.05 0.05" class="intersectable"></a-entity>
   </a-scene>
 </body>
 
