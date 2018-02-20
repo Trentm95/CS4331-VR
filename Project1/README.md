@@ -1,5 +1,29 @@
 # Project 1
 
+### Video
+
+[Demo Link](https://trentm95.github.io/CS4331-VR/Project1/)
+[Source Code](https://github.com/Trentm95/CS4331-VR/tree/master/Project1)
+
+### Outside View
+![Outside](report_images/outside.PNG)
+
+### Kitchen
+![Kitchen1](report_images/kitchen1.PNG)
+![Kitchen2](report_images/kitchen2.PNG)
+
+### Middle
+![Middle](report_images/statue.PNG)
+
+### Living Room
+![Living Room](report_images/livingroom.PNG)
+
+### Light Control
+![Light Control](report_images/lightcontrol.PNG)
+
+### Speaker
+![Speaker](report_images/speaker.PNG)
+
 ## References
 * https://aframe.io/docs/
 * https://github.com/Alex-Nguyen/CS5331001-Virtual-Reality
