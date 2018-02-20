@@ -1,9 +1,7 @@
 # Project 1
-
-### Video
-
-[Demo Link](https://trentm95.github.io/CS4331-VR/Project1/)
-[Source Code](https://github.com/Trentm95/CS4331-VR/tree/master/Project1)
+* [Video Link]()
+* [Demo Link](https://trentm95.github.io/CS4331-VR/Project1/)
+* [Source Code](https://github.com/Trentm95/CS4331-VR/tree/master/Project1)
 
 ## Description
 
