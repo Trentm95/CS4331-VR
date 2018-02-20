@@ -1,5 +1,5 @@
 # Project 1
-* [Video Link]()
+* [Video Link](https://drive.google.com/file/d/1IWG76nO3XjFVsEp83P52xmdboabhr1fo/view?usp=sharing)
 * [Demo Link](https://trentm95.github.io/CS4331-VR/Project1/)
 * [Source Code](https://github.com/Trentm95/CS4331-VR/tree/master/Project1)
 
