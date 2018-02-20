@@ -5,29 +5,49 @@
 [Demo Link](https://trentm95.github.io/CS4331-VR/Project1/)
 [Source Code](https://github.com/Trentm95/CS4331-VR/tree/master/Project1)
 
+## Description
+
+The goal of this project was to create a virtual reality home. This project was made using the A-frame library, Sketchfab for gltf models, and Photoshop for texture downscaling.
+
 ### Outside View
+
+An outside view of the house. For this project I decorated the large bottom floor room. You can also see the ocean skybox in the background.
+
 ![Outside](report_images/outside.PNG)
 
 ### Kitchen
+
+The kitchen contains cabinets with sink, microwave, cutting board, oven, smart fridge, and table with chairs.
+
 ![Kitchen1](report_images/kitchen1.PNG)
 ![Kitchen2](report_images/kitchen2.PNG)
 
 ### Middle
+
+The middle part of the house contains a book shelf and a statue of a knight.
+
 ![Middle](report_images/statue.PNG)
 
 ### Living Room
+The living room contains a TV, sofa, rug, decorative shield, speaker and hanging light.
+
 ![Living Room](report_images/livingroom.PNG)
 
 ### Light Control
+To control the lighting color you can hover over the colored cubes. Black turns off the light.
+
 ![Light Control](report_images/lightcontrol.PNG)
 
 ### Speaker
+To play the cantina music from Star Wars hover over the speaker.
+
 ![Speaker](report_images/speaker.PNG)
 
 ## References
 * https://aframe.io/docs/
 * https://github.com/Alex-Nguyen/CS5331001-Virtual-Reality
 * https://github.com/donmccurdy/aframe-extras
+* https://sketchfab.com/
 
 ## Asset Sources
 
