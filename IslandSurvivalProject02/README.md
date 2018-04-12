@@ -1,4 +1,6 @@
 # Project 02 Report
+[Download Link](https://github.com/Trentm95/CS4331-VR/releases/tag/v0.1-alpha)
+
 *insert link to video demo*
 
 *insert project screenshot*
