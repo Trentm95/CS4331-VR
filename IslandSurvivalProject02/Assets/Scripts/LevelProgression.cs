@@ -1,74 +1,101 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine.SceneManagement;
 
-public class LevelProgression : MonoBehaviour {
+public static class LevelProgression {
     
     // Global Variables
-    private int civPoints;
-    private int pollPoints;
-    private int level;
+    private static int civPoints = 0;
+    private static int pollPoints = 0;
+    private static int level = 1;
 
-	// Use this for initialization
-	void Start () {
-        civPoints = 0;
-        pollPoints = 0;
-        level = 1;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		// Level up logic
-
-        // Lose condition
-
-        // Win condition
-	}
-
+    // Resources
+    private static int stone = 0;
+    private static int wood = 0;
+    private static int seeds = 0;
 
 
     // CIVILIZATION POINTS METHODS ----------------------------------------------------------------
 
-    public int getCivPoints()
+    public static int getCivPoints()
     {
         return civPoints;
     }
 
-    public void AddCivPoints(int points)
+    public static void AddCivPoints(int points)
     {
         civPoints += points;
-    }
 
+        if(civPoints >= 5)
+        {
+            level++;
+            civPoints -= 5;
+
+            if(level >= 25 && pollPoints < 50)
+            {
+                SceneManager.LoadScene("win");
+            }
+        }
+    }
 
 
     // POLLUTION POINTS METHODS -------------------------------------------------------------------
 
-    public int getPollPoints()
+    public static int getPollPoints()
     {
         return pollPoints;
     }
 
-    public void AddPollPoints(int points)
+    public static void AddPollPoints(int points)
     {
         pollPoints += points;
+
+        if(pollPoints >= 50)
+        {
+            SceneManager.LoadScene("lose");
+        }
     }
-
-    public void SubPollPoints(int points)
-    {
-        pollPoints -= points;
-    }
-
-
 
     // LEVEL METHODS ------------------------------------------------------------------------------
 
-    public int getLevel()
+    public static int getLevel()
     {
         return level;
     }
 
-    public void IncLevel()
+    public static void incLevel()
     {
         level++;
     }
+
+    // Resource METHODS ------------------------------------------------------------------------------
+
+    public static int getStone()
+    {
+        return stone;
+    }
+
+    public static void AddStone(int amnt)
+    {
+        stone += amnt;
+    }
+
+    public static int getWood()
+    {
+        return wood;
+    }
+
+    public static void AddWood(int amnt)
+    {
+        wood += amnt;
+    }
+
+    public static int getSeeds()
+    {
+        return seeds;
+    }
+
+    public static void AddSeeds(int amnt)
+    {
+        seeds += amnt;
+    }
+
 }
