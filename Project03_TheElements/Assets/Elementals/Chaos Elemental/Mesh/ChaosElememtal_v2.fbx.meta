@@ -1,0 +1,1842 @@
+fileFormatVersion: 2
+guid: a0799aecd1c46e6449c3dcf8e0378281
+timeCreated: 1513372717
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ce_bone_armfore_l
+    100002: ce_bone_armfore_r
+    100004: ce_bone_armhand_l
+    100006: ce_bone_armhand_r
+    100008: ce_bone_chest_lower
+    100010: ce_bone_chest_upper
+    100012: ce_bone_clavicle_l
+    100014: ce_bone_clavicle_r
+    100016: ce_bone_floating
+    100018: ce_bone_floating1
+    100020: ce_bone_floating2
+    100022: ce_bone_foot_l
+    100024: ce_bone_foot_r
+    100026: ce_bone_head
+    100028: ce_bone_index_lower_l
+    100030: ce_bone_index_lower_r
+    100032: ce_bone_index_upper_l
+    100034: ce_bone_index_upper_r
+    100036: ce_bone_leglower_l
+    100038: ce_bone_leglower_r
+    100040: ce_bone_legupper_l
+    100042: ce_bone_legupper_r
+    100044: ce_bone_little_lower_l
+    100046: ce_bone_little_lower_r
+    100048: ce_bone_little_upper_l
+    100050: ce_bone_little_upper_r
+    100052: ce_bone_neck
+    100054: ce_bone_neck1
+    100056: ce_bone_shoulder_l
+    100058: ce_bone_shoulder_r
+    100060: ce_bone_thumb_lower_l
+    100062: ce_bone_thumb_lower_r
+    100064: ce_bone_thumb_upper_l
+    100066: ce_bone_thumb_upper_r
+    100068: ce_bone_toes_l
+    100070: ce_bone_toes_r
+    100072: CE_Mesh
+    100074: ce_root
+    100076: ce_tip_chest
+    100078: ce_tip_floating
+    100080: //RootNode
+    400000: ce_bone_armfore_l
+    400002: ce_bone_armfore_r
+    400004: ce_bone_armhand_l
+    400006: ce_bone_armhand_r
+    400008: ce_bone_chest_lower
+    400010: ce_bone_chest_upper
+    400012: ce_bone_clavicle_l
+    400014: ce_bone_clavicle_r
+    400016: ce_bone_floating
+    400018: ce_bone_floating1
+    400020: ce_bone_floating2
+    400022: ce_bone_foot_l
+    400024: ce_bone_foot_r
+    400026: ce_bone_head
+    400028: ce_bone_index_lower_l
+    400030: ce_bone_index_lower_r
+    400032: ce_bone_index_upper_l
+    400034: ce_bone_index_upper_r
+    400036: ce_bone_leglower_l
+    400038: ce_bone_leglower_r
+    400040: ce_bone_legupper_l
+    400042: ce_bone_legupper_r
+    400044: ce_bone_little_lower_l
+    400046: ce_bone_little_lower_r
+    400048: ce_bone_little_upper_l
+    400050: ce_bone_little_upper_r
+    400052: ce_bone_neck
+    400054: ce_bone_neck1
+    400056: ce_bone_shoulder_l
+    400058: ce_bone_shoulder_r
+    400060: ce_bone_thumb_lower_l
+    400062: ce_bone_thumb_lower_r
+    400064: ce_bone_thumb_upper_l
+    400066: ce_bone_thumb_upper_r
+    400068: ce_bone_toes_l
+    400070: ce_bone_toes_r
+    400072: CE_Mesh
+    400074: ce_root
+    400076: ce_tip_chest
+    400078: ce_tip_floating
+    400080: //RootNode
+    4300000: CE_Mesh
+    7400000: Stand
+    7400002: run
+    7400004: Roar
+    7400006: Talk
+    7400008: Channel_A
+    7400010: Channel_B
+    7400012: Spell_A
+    7400014: Spell_Ready
+    7400016: Spell_B
+    7400018: Channel_C
+    7400020: Ready
+    7400022: Attack_Right
+    7400024: Arrack_Left
+    7400026: walk
+    7400028: Death
+    9500000: //RootNode
+    13700000: CE_Mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CE_Emerald_Diffuse
+    second: {fileID: 2100000, guid: 49d9ef5911bf6d44f93ea56380f1b4f9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Stand
+      takeName: Stand
+      firstFrame: 10
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CE_Mesh
+        weight: 1
+      - path: ce_root
+        weight: 1
+      - path: ce_root/ce_tip_chest
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l/ce_bone_index_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l/ce_bone_little_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l/ce_bone_thumb_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r/ce_bone_index_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r/ce_bone_little_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r/ce_bone_thumb_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1/ce_bone_head
+        weight: 1
+      - path: ce_root/ce_tip_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating1
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating2
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l/ce_bone_toes_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r/ce_bone_toes_r
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: run
+      firstFrame: 70
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CE_Mesh
+        weight: 1
+      - path: ce_root
+        weight: 1
+      - path: ce_root/ce_tip_chest
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l/ce_bone_index_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l/ce_bone_little_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l/ce_bone_thumb_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r/ce_bone_index_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r/ce_bone_little_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r/ce_bone_thumb_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1/ce_bone_head
+        weight: 1
+      - path: ce_root/ce_tip_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating1
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating2
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l/ce_bone_toes_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r/ce_bone_toes_r
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Roar
+      takeName: Roar
+      firstFrame: 120
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CE_Mesh
+        weight: 1
+      - path: ce_root
+        weight: 1
+      - path: ce_root/ce_tip_chest
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l/ce_bone_index_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l/ce_bone_little_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l/ce_bone_thumb_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r/ce_bone_index_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r/ce_bone_little_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r/ce_bone_thumb_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1/ce_bone_head
+        weight: 1
+      - path: ce_root/ce_tip_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating1
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating2
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l/ce_bone_toes_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r/ce_bone_toes_r
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Talk
+      takeName: Talk
+      firstFrame: 310
+      lastFrame: 390
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CE_Mesh
+        weight: 1
+      - path: ce_root
+        weight: 1
+      - path: ce_root/ce_tip_chest
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l/ce_bone_index_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l/ce_bone_little_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l/ce_bone_thumb_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r/ce_bone_index_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r/ce_bone_little_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r/ce_bone_thumb_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1/ce_bone_head
+        weight: 1
+      - path: ce_root/ce_tip_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating1
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating2
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l/ce_bone_toes_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r/ce_bone_toes_r
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Channel_A
+      takeName: Channel_A
+      firstFrame: 210
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CE_Mesh
+        weight: 1
+      - path: ce_root
+        weight: 1
+      - path: ce_root/ce_tip_chest
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l/ce_bone_index_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l/ce_bone_little_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l/ce_bone_thumb_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r/ce_bone_index_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r/ce_bone_little_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r/ce_bone_thumb_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1/ce_bone_head
+        weight: 1
+      - path: ce_root/ce_tip_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating1
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating2
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l/ce_bone_toes_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r/ce_bone_toes_r
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Channel_B
+      takeName: Channel_B
+      firstFrame: 260
+      lastFrame: 290
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CE_Mesh
+        weight: 1
+      - path: ce_root
+        weight: 1
+      - path: ce_root/ce_tip_chest
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l/ce_bone_index_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l/ce_bone_little_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l/ce_bone_thumb_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r/ce_bone_index_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r/ce_bone_little_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r/ce_bone_thumb_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1/ce_bone_head
+        weight: 1
+      - path: ce_root/ce_tip_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating1
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating2
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l/ce_bone_toes_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r/ce_bone_toes_r
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spell_A
+      takeName: Spell_A
+      firstFrame: 410
+      lastFrame: 456
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CE_Mesh
+        weight: 1
+      - path: ce_root
+        weight: 1
+      - path: ce_root/ce_tip_chest
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l/ce_bone_index_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l/ce_bone_little_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l/ce_bone_thumb_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r/ce_bone_index_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r/ce_bone_little_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r/ce_bone_thumb_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1/ce_bone_head
+        weight: 1
+      - path: ce_root/ce_tip_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating1
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating2
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l/ce_bone_toes_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r/ce_bone_toes_r
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spell_Ready
+      takeName: Spell_Ready
+      firstFrame: 477
+      lastFrame: 507
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CE_Mesh
+        weight: 1
+      - path: ce_root
+        weight: 1
+      - path: ce_root/ce_tip_chest
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l/ce_bone_index_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l/ce_bone_little_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l/ce_bone_thumb_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r/ce_bone_index_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r/ce_bone_little_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r/ce_bone_thumb_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1/ce_bone_head
+        weight: 1
+      - path: ce_root/ce_tip_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating1
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating2
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l/ce_bone_toes_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r/ce_bone_toes_r
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spell_B
+      takeName: Spell_B
+      firstFrame: 527
+      lastFrame: 557
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CE_Mesh
+        weight: 1
+      - path: ce_root
+        weight: 1
+      - path: ce_root/ce_tip_chest
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l/ce_bone_index_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l/ce_bone_little_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l/ce_bone_thumb_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r/ce_bone_index_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r/ce_bone_little_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r/ce_bone_thumb_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1/ce_bone_head
+        weight: 1
+      - path: ce_root/ce_tip_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating1
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating2
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l/ce_bone_toes_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r/ce_bone_toes_r
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Channel_C
+      takeName: Channel_C
+      firstFrame: 577
+      lastFrame: 637
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CE_Mesh
+        weight: 1
+      - path: ce_root
+        weight: 1
+      - path: ce_root/ce_tip_chest
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l/ce_bone_index_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l/ce_bone_little_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l/ce_bone_thumb_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r/ce_bone_index_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r/ce_bone_little_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r/ce_bone_thumb_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1/ce_bone_head
+        weight: 1
+      - path: ce_root/ce_tip_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating1
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating2
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l/ce_bone_toes_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r/ce_bone_toes_r
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ready
+      takeName: Ready
+      firstFrame: 657
+      lastFrame: 702
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CE_Mesh
+        weight: 1
+      - path: ce_root
+        weight: 1
+      - path: ce_root/ce_tip_chest
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l/ce_bone_index_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l/ce_bone_little_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l/ce_bone_thumb_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r/ce_bone_index_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r/ce_bone_little_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r/ce_bone_thumb_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1/ce_bone_head
+        weight: 1
+      - path: ce_root/ce_tip_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating1
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating2
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l/ce_bone_toes_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r/ce_bone_toes_r
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack_Right
+      takeName: Attack_Right
+      firstFrame: 722
+      lastFrame: 754
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CE_Mesh
+        weight: 1
+      - path: ce_root
+        weight: 1
+      - path: ce_root/ce_tip_chest
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l/ce_bone_index_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l/ce_bone_little_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l/ce_bone_thumb_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r/ce_bone_index_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r/ce_bone_little_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r/ce_bone_thumb_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1/ce_bone_head
+        weight: 1
+      - path: ce_root/ce_tip_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating1
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating2
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l/ce_bone_toes_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r/ce_bone_toes_r
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arrack_Left
+      takeName: Arrack_Left
+      firstFrame: 774
+      lastFrame: 806
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CE_Mesh
+        weight: 1
+      - path: ce_root
+        weight: 1
+      - path: ce_root/ce_tip_chest
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l/ce_bone_index_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l/ce_bone_little_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l/ce_bone_thumb_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r/ce_bone_index_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r/ce_bone_little_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r/ce_bone_thumb_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1/ce_bone_head
+        weight: 1
+      - path: ce_root/ce_tip_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating1
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating2
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l/ce_bone_toes_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r/ce_bone_toes_r
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      firstFrame: 826
+      lastFrame: 889
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CE_Mesh
+        weight: 1
+      - path: ce_root
+        weight: 1
+      - path: ce_root/ce_tip_chest
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l/ce_bone_index_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l/ce_bone_little_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l/ce_bone_thumb_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r/ce_bone_index_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r/ce_bone_little_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r/ce_bone_thumb_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1/ce_bone_head
+        weight: 1
+      - path: ce_root/ce_tip_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating1
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating2
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l/ce_bone_toes_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r/ce_bone_toes_r
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death
+      takeName: Death
+      firstFrame: 909
+      lastFrame: 1149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CE_Mesh
+        weight: 1
+      - path: ce_root
+        weight: 1
+      - path: ce_root/ce_tip_chest
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_index_upper_l/ce_bone_index_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_little_upper_l/ce_bone_little_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_l/ce_bone_shoulder_l/ce_bone_armfore_l/ce_bone_armhand_l/ce_bone_thumb_upper_l/ce_bone_thumb_lower_l
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_index_upper_r/ce_bone_index_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_little_upper_r/ce_bone_little_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_clavicle_r/ce_bone_shoulder_r/ce_bone_armfore_r/ce_bone_armhand_r/ce_bone_thumb_upper_r/ce_bone_thumb_lower_r
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1
+        weight: 1
+      - path: ce_root/ce_tip_chest/ce_bone_chest_lower/ce_bone_chest_upper/ce_bone_neck/ce_bone_neck1/ce_bone_head
+        weight: 1
+      - path: ce_root/ce_tip_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating1
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_floating2
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_l/ce_bone_leglower_l/ce_bone_foot_l/ce_bone_toes_l
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r
+        weight: 1
+      - path: ce_root/ce_tip_floating/ce_bone_legupper_r/ce_bone_leglower_r/ce_bone_foot_r/ce_bone_toes_r
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
