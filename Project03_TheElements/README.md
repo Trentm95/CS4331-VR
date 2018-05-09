@@ -50,7 +50,7 @@ We chose to develop our game in [Unity](https://unity3d.com/), and we imported f
 ![EndScreen](Photos/EndScreen.JPG)
 
 ### In-Game UI
-![UI](Photos/UI.PNG)
+![UI](Photos/UI.png)
 
 ## Obstacles & Issues
 ### Testing
