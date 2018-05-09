@@ -61,8 +61,6 @@ A 5 second delay was implemented at the start of each round to give the player t
 
 There were some major issues that were encountered when creating the projectiles. The projectiles were created in Adobe Photoshop by hand, and Photoshop made Michael's computer crash three times, deleting his creations. Therefore, after hours of figuring it out, he was able to save his work before it crashed and finish the projectiles in Unity. There were also some issues making the particles that were coming out of the projectiles attach to the object and fly with them when they were shot out.
 
-<*insert Trent's issues*>
-
 ## Conclusion
 This game is a first person shooter game that uses the Oculus with controlers to allow the user to play the game. Our game starts off by giving the users time to read the instructions on how to play the game and then drops them into the field of gameplay. At the start of gameplay, there are elementals that start coming after the player. The user has four different abilities that they can use to fight against the elementals that are coming at them. At first, there are only two elementals that come after the user, but as the player progresses through the game, more and more elementals will spawn. To kill the elementals, the user must use the proper ability that weakens each elemental; Fire kills the water elemental, water kills the fire elemental, air kills the earth elemental, and earth kills the air elemental. The main goal of this game is for the user to stay playing as long as they can until they end up losing all their health from the elementals! 
 
@@ -72,4 +70,4 @@ This game is a first person shooter game that uses the Oculus with controlers to
 * [Projectile Tutorial](https://www.youtube.com/watch?v=DEtZUeVY9qk)
 
 ## Source Control Timeline
-<*insert timeline*>
+![FireElemental](Photos/timeling.png)
