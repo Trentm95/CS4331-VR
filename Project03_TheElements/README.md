@@ -28,29 +28,29 @@ We chose to develop our game in [Unity](https://unity3d.com/), and we imported f
 
 ## Screenshots
 ### Elementals
-<*insert fire*>
-<*insert water*>
-<*insert earth*>
-<*insert air*>
+![FireElemental](Photos/FireElemental.PNG)
+![WaterElemental](Photos/WaterElemental.PNG)
+![EarthElemental](Photos/EarthElemental.PNG)
+![AirElemental](Photos/AirElemental.PNG)
 
 ### Map
-<*insert floor and skybox*>
+![FloorMap](Photos/FloorMap.JPG)
 
 ### Oculus Touch Controls
-<*insert in-game hands*>
+![Hands](Photos/Hands.JPG)
 
 ### Projectiles
-<*insert fire*>
-<*insert water*>
-<*insert earth*>
-<*insert air*>
+![FireBall](Photos/FireBall.JPG)
+![WaterBall](Photos/WaterBall.JPG)
+![Rocks](Photos/Rocks.JPG)
+![AirBlast](Photos/AirBlast.JPG)
 
 ### Start/End Screens
-<*insert start*>
-<*insert end*>
+![StartScreen](Photos/StartScreen.JPG)
+![EndScreen](Photos/EndScreen.JPG)
 
 ### In-Game UI
-<*insert UI from top of screen*>
+![UI](Photos/UI.PNG)
 
 ## Obstacles & Issues
 ### Testing
@@ -59,11 +59,12 @@ For those of us that did not have an Oculus Rift at our disposal, we needed to u
 ### AI Attacks
 A 5 second delay was implemented at the start of each round to give the player time to view their enemies and prepare. This 5 second delay was done using Unity's *coroutine*. This caused some issues as Christine could no longer put the enemy attack logic in the update function to be called every frame. Christine needed the enemy to attack repeatedly if it was in range of the player, therefore she needed some way to loop the attack; however, a *coroutine* does not loop. Christine looked into using a *while* loop, but this caused Unity to freeze. Eventually, she found a way to utilize Unity's *InvokeRepeating* function in order to call the attack function over and over. It would repeat until the enemy was no longer in range of the player. Once the enemy is out of range, Unity's *CancelInvoke* function would cancel the attack until the enemy is in range of the player again.
 
-<*insert Michael's issues*>
+There were some major issues that were encountered when creating the projectiles. The projectiles were created in Adobe Photoshop by hand, and Photoshop made Michael's computer crash three times, deleting his creations. Therefore, after hours of figuring it out, he was able to save his work before it crashed and finish the projectiles in Unity. There were also some issues making the particles that were coming out of the projectiles attach to the object and fly with them when they were shot out.
 
 <*insert Trent's issues*>
 
 ## Conclusion
+This game is a first person shooter game that uses the Oculus with controlers to allow the user to play the game. Our game starts off by giving the users time to read the instructions on how to play the game and then drops them into the field of gameplay. At the start of gameplay, there are elementals that start coming after the player. The user has four different abilities that they can use to fight against the elementals that are coming at them. At first, there are only two elementals that come after the user, but as the player progresses through the game, more and more elementals will spawn. To kill the elementals, the user must use the proper ability that weakens each elemental; Fire kills the water elemental, water kills the fire elemental, air kills the earth elemental, and earth kills the air elemental. The main goal of this game is for the user to stay playing as long as they can until they end up losing all their health from the elementals! 
 
 ## References
 * [Oculus Docs](https://developer.oculus.com/develop/)
