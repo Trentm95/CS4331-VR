@@ -70,4 +70,4 @@ This game is a first person shooter game that uses the Oculus with controlers to
 * [Projectile Tutorial](https://www.youtube.com/watch?v=DEtZUeVY9qk)
 
 ## Source Control Timeline
-![FireElemental](Photos/timeling.png)
+![Timeline](Photos/timeline.png)
